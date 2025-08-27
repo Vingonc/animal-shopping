@@ -10,3 +10,9 @@ O sistema também foi planejado para atender às necessidades do gestor do pet s
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,react,spring)](https://skillicons.dev)
 
+Front-End: Desenvolvido com HTML, CSS, JavaScript e React, oferencendo uma interface responsiva e com componentes reutilizaveis.
+
+Back-End: Utiliza o Springboot, um framework Java para a criação de uma API que gerencia produtos e usuários.
+
+GitHub: Repositório para o versionamento do projeto.
+
