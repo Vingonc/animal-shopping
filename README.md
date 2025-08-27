@@ -7,5 +7,6 @@ Este projeto tem como objetivo o desenvolvimento de um e-commerce profissional e
 O sistema também foi planejado para atender às necessidades do gestor do pet shop, oferecendo uma visualização organizada dos pedidos realizados, bem como um controle eficiente do estoque de produtos. Dessa forma, o projeto une tecnologia e usabilidade para trazer benefícios tanto para os clientes quanto para a administração do negócio
 
 🛠️ Tecnologias que serão utilizadas:
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,react,springboot)](https://skillicons.dev)
+
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,react,spring)](https://skillicons.dev)
 
