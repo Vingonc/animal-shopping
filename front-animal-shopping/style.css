@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    overflow-y: hidden;
+}
+
+header {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    margin: 0 2rem;
+
+    .logo {
+
+        font-size: 12px;
+    }
+}
+
+main {
+
+    img {
+        max-width: 250px;
+    }
+
+
+    .container-login, .container-register {
+
+        padding: 10rem 2rem;
+
+        div>p {
+            margin-bottom: 2rem;
+        }
+
+        h1 {
+            color: #000000c7;
+            font-size: 3rem;
+        }
+
+        p {
+            color: #797979;
+        }
+
+    }
+
+    .input-group {
+        margin-top: 1rem;
+
+        input,
+        button {
+            width: 100%;
+        }
+
+        input {
+            border-radius: 4px;
+            margin: 12px 0;
+            padding: 16px;
+            border: 2px solid #0707077c;
+        }
+
+        input:focus {
+            outline: 1px solid #0707077c;
+        }
+
+        a {
+            display: block;
+            text-align: right;
+            color: black;
+        }
+
+        button {
+            background-color: #FF3F18;
+            border: none;
+            cursor: pointer;
+            padding: 18px;
+            border-radius: 8px;
+            font-weight: 600;
+            margin-top: 12px;
+            color: white;
+        }
+
+        button:hover {
+            background-color: #FF3F18;
+        }
+    }
+}
+
+aside {
+    display: none;
+    
+}
+
+
+
+@media (min-width: 700px) {
+    
+    .container-login, .container-register {
+        max-width: 1200px;
+        margin: 2rem auto;
+        
+        div>p {
+            margin-bottom: 2rem;
+        }
+    }
+    
+    .container-register {
+        
+        max-width: 600px;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1.5fr;
+    }
+    
+    
+    aside {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #FF3F18;
+    }
+}
